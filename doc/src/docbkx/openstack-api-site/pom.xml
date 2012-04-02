@@ -104,6 +104,15 @@
             </transformationSet>
 
             <transformationSet>
+              <dir>src/wadls/os-console-output/src</dir>
+              <includes>
+                <include>os-console-output.wadl</include>
+              </includes>
+              <stylesheet>${project.build.directory}/generated-resources/cloud/normalizeWadl/normalizeWadl.xsl</stylesheet>
+            </transformationSet>
+
+
+            <transformationSet>
               <dir>src/wadls/image-api/src</dir>
               <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
               <!-- Add other wadls to be normalized here -->
